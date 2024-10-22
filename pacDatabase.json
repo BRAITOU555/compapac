@@ -1,0 +1,39 @@
+[
+    {
+      "name": "Modèle Mural ETVH16S18+E26W/EVW07",
+      "tempMax": 70,
+      "puissance": {
+        "7": 10.18,
+        "2": 9.21,
+        "-7": 7.87,
+        "-15": 6.39,
+        "-20": 5.87
+      },
+      "description": "Unité intérieure murale, assure le chauffage et la production d'eau chaude sanitaire."
+    },
+    {
+      "name": "Modèle Au Sol ETVH16S18+E23W/EVW07",
+      "tempMax": 65,
+      "puissance": {
+        "7": 11.15,
+        "2": 10.27,
+        "-7": 8.60,
+        "-15": 7.12,
+        "-20": 6.10
+      },
+      "description": "Modèle au sol avec ballon ECS intégré, idéal pour le chauffage et la production d'eau chaude sanitaire."
+    },
+    {
+      "name": "Modèle Taille 16 ETVH14S18/EVW07",
+      "tempMax": 70,
+      "puissance": {
+        "7": 9.88,
+        "2": 8.85,
+        "-7": 7.47,
+        "-15": 6.00,
+        "-20": 5.44
+      },
+      "description": "Modèle performant pour des températures extérieures basses avec une efficacité énergétique maximale."
+    }
+  ]
+  

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compapac - Comparateur de Pompes à Chaleur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Compapac - Comparateur de Pompes à Chaleur</h1>
+        <!-- Image de bande avec largeur 100% -->
+        <div class="banner">
+            <img src="images/COMPAPAC.jpg" alt="Bande d'une pompe à chaleur dans une rue avec un trottoir" />
+        </div>
+    </header>
+
+    <main>
+        <section id="input-section">
+            <h2>Entrez vos données</h2>
+            <form id="compapac-form">
+                <h3>Température extérieure</h3>
+                <div>
+                    <button type="button" class="temp-ext-btn" data-value="-7">-7°C</button>
+                    <button type="button" class="temp-ext-btn" data-value="7">7°C</button>
+                </div>
+
+                <h3>Température de départ d'eau</h3>
+                <div>
+                    <button type="button" class="temp-eau-btn" data-value="60">60°C</button>
+                    <button type="button" class="temp-eau-btn" data-value="65">65°C</button>
+                    <button type="button" class="temp-eau-btn" data-value="70">70°C</button>
+                </div>
+
+                <h3>Puissance nécessaire (kW)</h3>
+                <div>
+                    <button type="button" class="puissance-btn" data-value="10">10 kW</button>
+                    <button type="button" class="puissance-btn" data-value="12">12 kW</button>
+                    <button type="button" class="puissance-btn" data-value="14">14 kW</button>
+                    <button type="button" class="puissance-btn" data-value="16">16 kW</button>
+                </div>
+
+                <!-- Champs cachés pour stocker les sélections -->
+                <input type="hidden" id="temp-ext" name="temp-ext">
+                <input type="hidden" id="temp-eau" name="temp-eau">
+                <input type="hidden" id="puissance" name="puissance">
+
+                <button type="submit">Trouver une pompe à chaleur</button>
+            </form>
+        </section>
+
+        <section id="result-section">
+            <h2>Résultats des Pompes à Chaleur Compatibles</h2>
+            <div id="results"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
