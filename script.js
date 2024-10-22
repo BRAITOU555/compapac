@@ -22,9 +22,7 @@ const pompeschaleur = [
         },
         "AppointElectrique": "6 kW de série étagé (2-4-6 kW)",
         "PressionSonore": "30 dB(A)",
-        "PlageFonctionnementEau": "15 à 70 °C / 10 à 63 °C",
-        "RaccordementElectrique": "230/V3/1~/50",
-        "Fichier": "docs/DAIKIN250.DOC.3HHT.22.pdf"
+        "Fichier": "fichestechniques/DAIKIN250.DOC.3HHT.22 (1).pdf"  // Chemin relatif au fichier PDF
     },
     {
         "Modèle": "EPRA16DV37",
@@ -48,9 +46,7 @@ const pompeschaleur = [
         },
         "AppointElectrique": "6 kW de série étagé (2-4-6 kW)",
         "PressionSonore": "30 dB(A)",
-        "PlageFonctionnementEau": "15 à 70 °C / 10 à 63 °C",
-        "RaccordementElectrique": "230/V3/1~/50",
-        "Fichier": "docs/DAIKIN250.DOC.3HHT.22.pdf"
+        "Fichier": "fichestechniques/DAIKIN250.DOC.3HHT.22 (1).pdf"  // Chemin relatif au fichier PDF
     },
     {
         "Modèle": "EPRA18DV37",
@@ -74,9 +70,7 @@ const pompeschaleur = [
         },
         "AppointElectrique": "6 kW de série étagé (2-4-6 kW)",
         "PressionSonore": "30 dB(A)",
-        "PlageFonctionnementEau": "15 à 70 °C / 10 à 63 °C",
-        "RaccordementElectrique": "230/V3/1~/50",
-        "Fichier": "docs/DAIKIN250.DOC.3HHT.22.pdf"
+        "Fichier": "fichestechniques/DAIKIN250.DOC.3HHT.22 (1).pdf.pdf"  // Chemin relatif au fichier PDF
     }
 ];
 
@@ -163,9 +157,7 @@ function displayResults(results) {
                 <p>COP à -7°C : ${pacData.COP_M7}</p>
                 <p><strong>Appoint électrique :</strong> ${pac.AppointElectrique}</p>
                 <p><strong>Niveaux de pression sonore :</strong> ${pac.PressionSonore}</p>
-                <p><strong>Plage de fonctionnement côté Eau :</strong> ${pac.PlageFonctionnementEau}</p>
-                <p><strong>Raccordement électrique :</strong> ${pac.RaccordementElectrique}</p>
-                <a href="${pac.Fichier}" download>Télécharger la fiche technique</a>
+                <a href="${pac.Fichier}" download>Télécharger la fiche technique (PDF)</a>
             `;
             resultsDiv.appendChild(pacElement);
         });
