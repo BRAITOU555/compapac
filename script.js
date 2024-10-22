@@ -46,7 +46,7 @@ const pompeschaleur = [
         },
         "AppointElectrique": "6 kW de série étagé (2-4-6 kW)",
         "PressionSonore": "30 dB(A)",
-        "Fichier": "fichestechniques/DAIKIN250.DOC.3HHT.22 (1).pdf"  // Chemin relatif au fichier PDF
+        "Fichier": "fichestechniques/DAIKIN250.DOC.3HHT.22 (1).pdf"
     },
     {
         "Modèle": "EPRA18DV37",
@@ -70,9 +70,54 @@ const pompeschaleur = [
         },
         "AppointElectrique": "6 kW de série étagé (2-4-6 kW)",
         "PressionSonore": "30 dB(A)",
-        "Fichier": "fichestechniques/DAIKIN250.DOC.3HHT.22 (1).pdf.pdf"  // Chemin relatif au fichier PDF
+        "Fichier": "fichestechniques/DAIKIN250.DOC.3HHT.22 (1).pdf"
+    },
+    {
+        "Modèle": "Atlantic Alféa Extensa Duo 5 kW",
+        "DepartEau_45": {
+            "EXTERIEUR_7": 4.50,
+            "COP_7": 4.74
+        },
+        "DepartEau_55": {
+            "EXTERIEUR_7": 4.50,
+            "COP_7": 3.70
+        },
+        "AppointElectrique": "3 kW (6 kW en option)",
+        "PressionSonore": "39 dB(A)",
+        "Fichier": "fichestechniques/notice-installation-alfea-extensa-ai-R32-ecs-atlantic.pdf"
+    },
+    {
+        "Modèle": "Atlantic Alféa Extensa Duo 6 kW",
+        "DepartEau_45": {
+            "EXTERIEUR_7": 5.50,
+            "COP_7": 4.65
+        },
+        "DepartEau_55": {
+            "EXTERIEUR_7": 5.50,
+            "COP_7": 3.65
+        },
+        "AppointElectrique": "3 kW (6 kW en option)",
+        "PressionSonore": "42 dB(A)",
+        "Fichier": "fichestechniques/notice-installation-alfea-extensa-ai-R32-ecs-atlantic.pdf"
+    },
+    {
+        "Modèle": "Atlantic Alféa Extensa Duo 8 kW",
+        "DepartEau_45": {
+            "EXTERIEUR_7": 7.50,
+            "COP_7": 4.43
+        },
+        "DepartEau_55": {
+            "EXTERIEUR_7": 7.00,
+            "COP_7": 3.63
+        },
+        "AppointElectrique": "3 kW (6 kW en option)",
+        "PressionSonore": "42 dB(A)",
+        "Fichier": "fichestechniques/notice-installation-alfea-extensa-ai-R32-ecs-atlantic.pdf"
     }
 ];
+
+// Les autres fonctions restent inchangées...
+
 
 // Gestion des sélections des boutons
 document.querySelectorAll('.temp-ext-btn').forEach(button => {
